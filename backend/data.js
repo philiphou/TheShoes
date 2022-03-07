@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Nike Road Running Shoes',
       slug: 'nike-running-shoes',
       category: 'Running',
@@ -13,6 +14,7 @@ const data = {
       description: 'high quality shoes',
     },
     {
+      _id: '2',
       name: 'Adidas Road Sneakers Shoes',
       slug: 'adidas-sneakers-shoes',
       category: 'Sneakers',
@@ -25,6 +27,7 @@ const data = {
       description: 'very comforatble',
     },
     {
+      _id: '3',
       name: 'Puma Running Shoes',
       slug: 'puma-running-shoes',
       category: 'Running',
@@ -37,6 +40,7 @@ const data = {
       description: 'economic choice',
     },
     {
+      _id: '4',
       name: 'Li-Ning Road Sneakers Shoes',
       slug: 'li-ning-sneakers-shoes',
       category: 'Sneaker',
@@ -49,6 +53,7 @@ const data = {
       description: 'latest version',
     },
     {
+      _id: '5',
       name: 'Nike Road Running Shoes',
       slug: 'nikerunning-shoes',
       category: 'Running',
@@ -61,6 +66,7 @@ const data = {
       description: 'newer release',
     },
     {
+      _id: '6',
       name: 'Nike Road Sneakers Shoes',
       slug: 'nikesneakers-shoes',
       category: 'Sneaker',
