@@ -12,6 +12,13 @@ export function StoreProvider(props) {
     switch (action.type) {
       case 'CART_ADD_ITEM':
         //add to cart
+        const newItem=action.payload;
+        const existItem=state.cart.cartItems.find(
+            (i)=>i._id===newItem._id
+        );
+        const cartItems=existItem?
+        state.cart.cartItems.map(item)=>
+            item._id===existItem._id? newItem:item)
         return {
           ...state,
           cart: {
