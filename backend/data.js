@@ -66,7 +66,7 @@ const data = {
       category: 'Sneaker',
       image: '/images/s6.jpg',
       price: 119,
-      countInStock: 3,
+      countInStock: 0,
       brand: 'Nike',
       rating: 4.5,
       numReviews: 8,
