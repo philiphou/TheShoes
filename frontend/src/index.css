@@ -29,6 +29,13 @@ main {
 .product-info {
   padding: 1rem;
 }
+.rating span {
+  color: gold;
+}
+.btn-primary {
+  background-color: greenyellow;
+  color: black;
+}
 footer {
   background-color: aqua;
 }
