@@ -51,6 +51,7 @@ function ProductScreen() {
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { cart } = state;
+  
   const addToCartHanler = async () => {
     const existItem = cart.cartItems.find((p) => p._id === product._id);
     const quantity = existItem ? existItem.quantity + 1 : 1;

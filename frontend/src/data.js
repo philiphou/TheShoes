@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      name: 'Nike Road Running Shoes',
+      name: 'Nike Running Shoes',
       slug: 'nike-running-shoes',
       category: 'Running',
       image: '/images/s1.jpg',
