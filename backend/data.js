@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       _id: '1',
-      name: 'Nike Road Running Shoes',
+      name: 'Nike Running Shoes',
       slug: 'nike-running-shoes',
       category: 'Running',
       image: '/images/s1.jpg',
@@ -15,7 +15,7 @@ const data = {
     },
     {
       _id: '2',
-      name: 'Adidas Road Sneakers Shoes',
+      name: 'Adidas Sneakers',
       slug: 'adidas-sneakers-shoes',
       category: 'Sneakers',
       image: '/images/s2.jpg',
@@ -41,7 +41,7 @@ const data = {
     },
     {
       _id: '4',
-      name: 'Li-Ning Road Sneakers Shoes',
+      name: 'Li-Ning Sneakers',
       slug: 'li-ning-sneakers-shoes',
       category: 'Sneaker',
       image: '/images/s4.jpg',
@@ -54,7 +54,7 @@ const data = {
     },
     {
       _id: '5',
-      name: 'Nike Road Running Shoes',
+      name: 'Nike Running Shoes',
       slug: 'nikerunning-shoes',
       category: 'Running',
       image: '/images/s5.jpg',
@@ -67,7 +67,7 @@ const data = {
     },
     {
       _id: '6',
-      name: 'Nike Road Sneakers Shoes',
+      name: 'Nike Sneakers ',
       slug: 'nikesneakers-shoes',
       category: 'Sneaker',
       image: '/images/s6.jpg',

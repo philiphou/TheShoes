@@ -19,14 +19,17 @@ main {
 }
 .product {
   border: 1px #404040 solid;
-  margin: 1rem;
+  margin: 1.5rem;
+  height: 230px;
 }
 .product img {
+  padding: 10px;
   width: 100%;
   max-width: 330px;
   height: 200px;
 }
 .product-info {
+  margin-top: 1rem;
   padding: 1rem;
 }
 .rating span {
