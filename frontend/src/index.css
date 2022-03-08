@@ -48,3 +48,6 @@ footer {
   max-width: 100%;
   margin-top: 50px;
 }
+.img-thumbnail {
+  height: 80px;
+}
