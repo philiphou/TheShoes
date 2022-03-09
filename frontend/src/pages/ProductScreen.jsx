@@ -7,10 +7,10 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
-import Rating from '../components/Rating';
+import Rating from './components/Rating';
 import ListGroupItem from 'react-bootstrap/esm/ListGroupItem';
-import LoadingBox from '../components/LoadingBox';
-import MessageBox from '../components/MessageBox';
+import LoadingBox from './components/LoadingBox';
+import MessageBox from './components/MessageBox';
 import getError from '../utils';
 import { Store } from '../Store';
 
@@ -51,7 +51,7 @@ function ProductScreen() {
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { cart } = state;
-  
+
   const addToCartHanler = async () => {
     const existItem = cart.cartItems.find((p) => p._id === product._id);
     const quantity = existItem ? existItem.quantity + 1 : 1;

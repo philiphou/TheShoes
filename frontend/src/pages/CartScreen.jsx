@@ -4,7 +4,7 @@ import ListGroupItem from 'react-bootstrap/esm/ListGroupItem';
 import ListGroup from 'react-bootstrap/esm/ListGroup';
 import Row from 'react-bootstrap/esm/Row';
 import { Link, useNavigate } from 'react-router-dom';
-import MessageBox from '../components/MessageBox';
+import MessageBox from './components/MessageBox';
 import { Store } from '../Store';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/esm/Card';
