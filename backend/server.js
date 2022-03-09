@@ -20,11 +20,10 @@ mongoose
 const app = express();
 
 app.use(express.json());
-app.use(express.urlencoded({extended:true}));
-app.use((err,req,res,next)=>{
-  res.status(500).send({message:err.message})
-})
-
+app.use(express.urlencoded({ extended: true }));
+app.use((err, req, res, next) => {
+  res.status(500).send({ message: err.message });
+});
 
 //fetch data using seedRouter//
 app.use('/api/seed', seedRouter);
@@ -35,4 +34,3 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`the server is ready at http://localhost:${port}`);
 });
-
