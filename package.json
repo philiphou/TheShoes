@@ -1,0 +1,21 @@
+{
+  "name": "theshoes",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philiphou/TheShoes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philiphou/TheShoes/issues"
+  },
+  "homepage": "https://github.com/philiphou/TheShoes#readme"
+}
