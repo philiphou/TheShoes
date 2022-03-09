@@ -1,7 +1,6 @@
 const data = {
   products: [
     {
-      _id: '1',
       name: 'Nike Running Shoes',
       slug: 'nike-running-shoes',
       category: 'Running',
@@ -14,7 +13,6 @@ const data = {
       description: 'high quality shoes',
     },
     {
-      _id: '2',
       name: 'Adidas Sneakers',
       slug: 'adidas-sneakers-shoes',
       category: 'Sneakers',
@@ -27,7 +25,6 @@ const data = {
       description: 'very comforatble',
     },
     {
-      _id: '3',
       name: 'Puma Running Shoes',
       slug: 'puma-running-shoes',
       category: 'Running',
@@ -40,7 +37,6 @@ const data = {
       description: 'economic choice',
     },
     {
-      _id: '4',
       name: 'Li-Ning Sneakers',
       slug: 'li-ning-sneakers-shoes',
       category: 'Sneaker',
@@ -53,8 +49,7 @@ const data = {
       description: 'latest version',
     },
     {
-      _id: '5',
-      name: 'Nike Running Shoes',
+      name: 'Nike Road Shoes',
       slug: 'nikerunning-shoes',
       category: 'Running',
       image: '/images/s5.jpg',
@@ -66,7 +61,6 @@ const data = {
       description: 'newer release',
     },
     {
-      _id: '6',
       name: 'Nike Sneakers ',
       slug: 'nikesneakers-shoes',
       category: 'Sneaker',
