@@ -34,7 +34,7 @@ export default function CartScreen() {
   };
 
   const checkoutHandler = () => {
-    navigate('/signin?redirect=/shipping');
+    alert('Your order is now placed and will be prepared! Thanks!');
   };
   return (
     <div>
@@ -110,7 +110,7 @@ export default function CartScreen() {
                       variant="primary"
                       disabled={cartItems.length === 0}
                     >
-                      Checkout
+                      Place the Order
                     </Button>
                   </div>
                 </ListGroupItem>
