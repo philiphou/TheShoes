@@ -23,7 +23,7 @@ function App() {
   };
   return (
     <BrowserRouter>
-      <div className="d-flex flex-column body-container">
+      <div className="d-flex flex-row body-container">
         <header>
           <Navbar bg="dark" variant="dark">
             <Container>
